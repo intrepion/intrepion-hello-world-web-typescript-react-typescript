@@ -19,3 +19,9 @@ npm test
 ```bash
 npm start
 ```
+
+## Deploy
+
+### Digital Ocean
+
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/intrepion/intrepion-hello-world-web-typescript-react-typescript/tree/main)

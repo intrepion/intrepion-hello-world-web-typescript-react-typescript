@@ -1,0 +1,14 @@
+spec:
+  name: app-web
+  region: sfo
+  static_sites:
+    - build_command: npm run build
+      environment_slug: node-js
+      github:
+        branch: main
+        deploy_on_push: true
+        repo: intrepion/intrepion-hello-world-web-typescript-react-typescript
+      name: web
+      routes:
+        - path: /
+      source_dir: /
